@@ -1,0 +1,27 @@
+{
+  "name": "typeScriptStats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-kulkarni105/typeScriptStats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul-kulkarni105/typeScriptStats/issues"
+  },
+  "homepage": "https://github.com/rahul-kulkarni105/typeScriptStats#readme",
+  "dependencies": {
+    "@types/node": "^13.9.3",
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
